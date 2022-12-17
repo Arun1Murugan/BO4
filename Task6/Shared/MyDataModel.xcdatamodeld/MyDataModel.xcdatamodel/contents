@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21E230" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="MyDataModel1AEntity" representedClassName="MyDataModel1AEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="categoryIconUploadType" optional="YES" attributeType="String"/>
+        <attribute name="categoryId" optional="YES" attributeType="String"/>
+        <attribute name="categoryThumbUploadType" optional="YES" attributeType="String"/>
+        <attribute name="categoryTitle" optional="YES" attributeType="String"/>
+        <attribute name="catgoryThumbURL" optional="YES" attributeType="String"/>
+        <attribute name="icon_rgb" optional="YES" attributeType="String"/>
+        <attribute name="isFav" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="MyDataModel2BEntity" representedClassName="MyDataModel2BEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="bookDescription" optional="YES" attributeType="String"/>
+        <attribute name="bookId" optional="YES" attributeType="String"/>
+        <attribute name="bookImage" optional="YES" attributeType="String"/>
+        <attribute name="bookImageUploadType" optional="YES" attributeType="String"/>
+        <attribute name="bookKeywords" optional="YES" attributeType="String"/>
+        <attribute name="bookName" optional="YES" attributeType="String"/>
+        <attribute name="bookPublisherName" optional="YES" attributeType="String"/>
+        <attribute name="isPrime" optional="YES" attributeType="String"/>
+        <attribute name="version" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="MyDataModel3CEntity" representedClassName="MyDataModel3CEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="bookList" optional="YES" attributeType="String"/>
+        <attribute name="catId" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="MyDataModel1AEntity" positionX="-63" positionY="-18" width="128" height="134"/>
+        <element name="MyDataModel2BEntity" positionX="-54" positionY="45" width="128" height="164"/>
+        <element name="MyDataModel3CEntity" positionX="-54" positionY="81" width="128" height="59"/>
+    </elements>
+</model>
